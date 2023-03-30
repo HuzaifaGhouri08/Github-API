@@ -8,7 +8,7 @@ fetch('https://api.github.com/user', {
   },
   // converts the JavaScript object to a JSON string.
   body: JSON.stringify({
-    bio: 'Web Devloper',
+    bio: 'my new bio',
   }),
 })
   .then((response) => response.json())
